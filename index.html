@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Moments | Photography Portfolio</title>
+    <link rel="stylesheet" href="Css/style.css"/>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo" data-page="home">Capture Moments</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li><a href="#" data-page="about">About</a></li>
+                    <li><a href="#" data-page="gallery">Gallery</a></li>
+                    <li><a href="#" data-page="services">Services</a></li>
+                    <li><a href="#" data-page="contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Capture Life's Beautiful Moments</h1>
+                    <p>Professional photography for all occasions</p>
+                    <a href="#" class="btn" data-page="gallery">View Portfolio</a>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Work</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="Images/Nature.jpg" alt="Nature Photography">
+                        <div class="gallery-caption">
+                            <h3>Nature</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="Images/Urban.jpg" alt="Urban Photography">
+                        <div class="gallery-caption">
+                            <h3>Urban</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="Images/Portrait.jpg" alt="Portrait Photography">
+                        <div class="gallery-caption">
+                            <h3>Portraits</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="Images/IMG_6471 copy.jpg" alt="Photographer">
+                    </div>
+                    
+                    <div class="about-text">
+                        <h3>Hello, I'm Ghyslaine Irankunda</h3>
+                        <p>I'm a professional photographer with over 3 years of experience capturing special moments and creating lasting memories for my clients.</p>
+                        
+                        <p>My journey in photography began when I  had a professional internship at a web TV . Since then, I've developed a passion for documenting life's beautiful moments through my lens.</p>
+                        
+                        <p>I specialize in portrait, nature, and urban photography. My approach is to capture authentic emotions and natural beauty in every shot.</p>
+                        
+                        <p>When I'm not behind the camera, you can find me in Web Developement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Page -->
+        <section id="gallery" class="page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Portfolio</h2>
+                    <p>Explore my work through these curated collections</p>
+                </div>
+                
+                <div class="filter-buttons">
+                    <button class="btn filter-btn active" data-filter="all">All</button>
+                    <button class="btn filter-btn" data-filter="nature">Nature</button>
+                    <button class="btn filter-btn" data-filter="urban">Urban</button>
+                    <button class="btn filter-btn" data-filter="portraits">Portraits</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="nature">
+                        <img src="Images/Nature1.jpg" alt="Nature 1">
+                        <div class="gallery-caption">
+                            <h3>Mountain Sunrise</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="nature">
+                        <img src="Images/Nature2.jpg" alt="Nature 2">
+                        <div class="gallery-caption">
+                            <h3>Forest Pathway</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="urban">
+                        <img src="Images/Urban1.jpg" alt="Urban 1">
+                        <div class="gallery-caption">
+                            <h3>City Skyline</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="urban">
+                        <img src="Images/Urban2.jpeg" alt="Urban 2">
+                        <div class="gallery-caption">
+                            <h3>Modern Architecture</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="portraits">
+                        <img src="Images/Portrait 1.jpg" alt="Portrait 1">
+                        <div class="gallery-caption">
+                            <h3>Professional Portrait</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="portraits">
+                        <img src="Images/Portrait 2.jpg" alt="Portrait 2">
+                        <div class="gallery-caption">
+                            <h3>Natural Light Portrait</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services" class="page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Services</h2>
+                    <p>Professional photography services for all occasions</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">📸</div>
+                        <h3>Portrait Sessions</h3>
+                        <p>Individual, couple, or family portraits in a location of your choice. Perfect for updating your professional profiles or capturing special moments.</p>
+                        <p class="price">Starting at $250</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">💒</div>
+                        <h3>Wedding Photography</h3>
+                        <p>Comprehensive wedding coverage from preparation to reception. Includes digital images and a custom wedding album.</p>
+                        <p class="price">Starting at $2000</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🏢</div>
+                        <h3>Commercial Photography</h3>
+                        <p>Professional product and business photography for websites, brochures, and marketing materials.</p>
+                        <p class="price">Starting at $500</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🎉</div>
+                        <h3>Event Coverage</h3>
+                        <p>Documentation of corporate events, parties, and celebrations. Delivered as digital images with printing rights.</p>
+                        <p class="price">Starting at $300</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>Reach out to discuss your photography needs</p>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                            <div class="error" id="nameError">Please enter your name</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                            <div class="error" id="emailError">Please enter a valid email</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" class="form-control">
+                                <option value="">Select a service</option>
+                                <option value="portrait">Portrait Sessions</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="commercial">Commercial Photography</option>
+                                <option value="event">Event Coverage</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                            <div class="error" id="messageError">Please enter your message</div>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        
+            <p>&copy; 2025 Capture Moments Photography. All rights reserved.</p>
+        </div>
+    </footer>
+<script defer src="Javascript/script.js"></script>
+    
+</body>
+</html>
